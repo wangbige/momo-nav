@@ -1,6 +1,6 @@
 {
-  "siteName": "默默导航",
-  "footerName": "默默导航",
+  "siteName": "Bige",
+  "footerName": "Bige",
   "siteDescription": "这里是一个导航网站的描述文字",
   "siteKeywords": "默默导航,收藏夹,书签,起始页",
   "favicon": "mn-src/momonav-icon.svg",
@@ -10,7 +10,7 @@
     "icon512": "mn-src/momonav-icon-512px.png"
   },
   "logo": {
-    "img": "mn-src/momonav-text.svg",
+    "text": "Bige",
     "height": 28
   },
   "theme": {
@@ -51,12 +51,178 @@
   ],
   "categories": [
     {
-      "name": "❤️ 这是父分类名",
+      "name": "工作",
       "subcategories": [
         {
-          "id": "sub-default",
+          "id": "sub-mwgtzy9c-g6kad4",
           "name": "默认",
           "items": [
+            {
+              "name": "一诺CRM",
+              "url": "https://www.yinuojizhang.com/crm/#/login",
+              "title": "一诺CRM",
+              "icon": "https://favicon.im/yinuojizhang.com"
+            },
+            {
+              "name": "百度地图",
+              "url": "https://map.baidu.com/@12361909,4147513,13z",
+              "title": "百度地图",
+              "icon": "https://a.favicon.im/map.baidu.com?larger=true"
+            },
+            {
+              "name": "天眼查",
+              "url": "https://www.tianyancha.com/",
+              "title": "天眼查",
+              "icon": "https://favicon.im/tianyancha.com"
+            },
+            {
+              "name": "电子税务局",
+              "url": "https://etax.shanxi.chinatax.gov.cn:8443/",
+              "title": "电子税务局",
+              "icon": "https://favicon.im/etax.shanxi.chinatax.gov.cn"
+            },
+            {
+              "name": "抖音来客",
+              "url": "https://life.douyin.com/p/login",
+              "title": "抖音来客",
+              "icon": "https://favicon.im/life.douyin.com"
+            },
+            {
+              "name": "美团经营宝",
+              "url": "https://ecom.meituan.com/meishi",
+              "title": "美团经营宝",
+              "icon": "https://favicon.im/ecom.meituan.com"
+            },
+            {
+              "name": "律社",
+              "url": "https://lvsheyun.com/",
+              "title": "律社",
+              "icon": "https://favicon.im/lvsheyun.com"
+            },
+            {
+              "name": "执行公开网",
+              "url": "https://zxgk.court.gov.cn/",
+              "title": "执行公开网",
+              "icon": "https://favicon.im/zxgk.court.gov.cn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI工具",
+      "subcategories": [
+        {
+          "id": "sub-mwgu0uzq-11a5z6",
+          "name": "默认",
+          "items": [
+            {
+              "name": "Deepseek",
+              "url": "https://chat.deepseek.com/",
+              "title": "Deepseek",
+              "icon": "https://favicon.im/chat.deepseek.com"
+            },
+            {
+              "name": "豆包",
+              "url": "https://www.doubao.com/chat",
+              "title": "豆包",
+              "icon": "https://favicon.im/doubao.com"
+            },
+            {
+              "name": "智谱",
+              "url": "https://chatglm.cn/main/alltoolsdetail?lang=zh&refer__991=2790552d-7LlVhbewhvUoE3GEQG7ebubwuKx9AChcvWCwqFfwoCFwWeLWwLW0vCWFL713L0EwrfCVLW1YCWopWYLoXW9jpcWwjugW6iWWPWFUuvWh%3DvyW3juqW79CW%3DW3bWtTfbudWk5TdDhWwrkMW73qU6UIpWlgW7OWCEWkWe_lRFTwNyWWQRLW6BOu%2FlcEvr3TsVUIGEo%2FWo0kWQshWw_LWfTl9quldWeWavXz26GSEcLpxuLWyo6vW37WTypEk6eWMco7WF7W8Eod1E%2FMdvviLQb7JELQW7r%3DWpkhsIWkSz%2F0Rjoq9rcCWv7WoV_TpUcPj%2FkptJuU0kEkTqvdMJDc0TcT0YNkZ6QM3tQfLwFLiucGYBsQtUujbWoVJ5waLj9B9WWyV%3DzeQDGWW3JWkh_ivOWhj99ELC%2Fl9R%2Fphk6BeIBjwRl6WuyiXVMwhoEjW",
+              "title": "智谱",
+              "icon": "https://favicon.im/chatglm.cn"
+            },
+            {
+              "name": "秘塔AI搜索",
+              "url": "https://metaso.cn/",
+              "title": "秘塔AI搜索",
+              "icon": "https://favicon.im/metaso.cn"
+            },
+            {
+              "name": "WPS 灵犀",
+              "url": "https://lingxi.kdocs.cn/",
+              "title": "WPS 灵犀",
+              "icon": "https://favicon.im/lingxi.kdocs.cn"
+            },
+            {
+              "name": "百度文心",
+              "url": "https://wenxin.baidu.com/?enter_type=sidebar_dialog",
+              "title": "百度文心",
+              "icon": "https://favicon.im/wenxin.baidu.com"
+            },
+            {
+              "name": "千问",
+              "url": "https://www.qianwen.com/",
+              "title": "千问",
+              "icon": "https://favicon.im/qianwen.com"
+            },
+            {
+              "name": "Qoder",
+              "url": "https://qoder.com/zh",
+              "title": "Qoder",
+              "icon": "https://favicon.im/qoder.com"
+            },
+            {
+              "name": "扣子空间",
+              "url": "https://www.coze.cn/",
+              "title": "扣子空间",
+              "icon": "https://favicon.im/coze.cn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "其它",
+      "subcategories": [
+        {
+          "id": "sub-mwgu1u0p-omk1dx",
+          "name": "默认",
+          "items": [
+            {
+              "name": "不死鸟-分享为王",
+              "url": "https://oe.do/",
+              "title": "不死鸟-分享为王",
+              "icon": "https://favicon.im/oe.do"
+            },
+            {
+              "name": "移动云盘",
+              "url": "https://yun.139.com/w/#/index",
+              "title": "移动云盘",
+              "icon": "https://favicon.im/yun.139.com"
+            },
+            {
+              "name": "极简插件",
+              "url": "https://chrome.zzzmh.cn/index",
+              "title": "极简插件",
+              "icon": "https://favicon.im/chrome.zzzmh.cn"
+            },
+            {
+              "name": "下载工具 Fluxdown",
+              "url": "https://fluxdown.zerx.dev/zh",
+              "title": "下载工具 Fluxdown",
+              "icon": "https://favicon.im/fluxdown.zerx.dev"
+            },
+            {
+              "name": "下载工具 Ghost Downloader",
+              "url": "https://gd.xychr.com/zh/#download",
+              "title": "下载工具 Ghost Downloader",
+              "icon": "https://favicon.im/gd.xychr.com"
+            },
+            {
+              "name": "网站icon获取",
+              "url": "https://favicon.im/zh/",
+              "title": "网站icon获取",
+              "icon": "https://favicon.im/favicon.im"
+            },
+            {
+              "name": "硅基流动API",
+              "url": "https://cloud.siliconflow.cn/me/expensebill?tab=coupon",
+              "title": "硅基流动API",
+              "icon": "https://favicon.im/cloud.siliconflow.cn"
+            },
             {
               "name": "默默导航",
               "url": "https://123.ihcll.cn",
@@ -68,204 +234,6 @@
               "url": "https://github.com/hcllmsx/momo-nav",
               "title": "默默导航GitHub仓库",
               "icon": "icon-momonav-icon"
-            }
-          ]
-        },
-        {
-          "id": "sub-dmkf",
-          "name": "代码开发",
-          "items": [
-            {
-              "name": "GitHub",
-              "url": "https://github.com",
-              "title": "代码托管平台",
-              "icon": "https://api.iconify.design/mdi:github.svg",
-              "keywords": "仓库,gayhub"
-            },
-            {
-              "name": "默默图床",
-              "url": "https://github.com/hcllmsx/momoimage",
-              "title": "默默图床是一个现代化、全栈图片托管系统。",
-              "icon": "https://zy.ihcll.cn/i/momoimageVercel/202606/18/q4g5qp/momoimage-icon.svg"
-            },
-            {
-              "name": "Cloudflare",
-              "url": "https://dash.cloudflare.com/",
-              "title": "Cloudflare，随时随地连⁠接、保⁠护、构建。我们使网站、应用、AI 智能体和网络更快、更安全。我们敏捷的 SASE 平台可加速安全的 AI 采用，我们的开发人员平台是构建、运行和部署 AI 应用的最佳平台。",
-              "icon": "icon-cloudflare"
-            },
-            {
-              "name": "Vercel",
-              "url": "https://vercel.com/",
-              "title": "Vercel 是一个云平台，用于构建、部署和托管现代 Web 应用程序",
-              "icon": "icon-Vercel"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "🤦‍♂️ 不想命名了",
-      "subcategories": [
-        {
-          "id": "sub-gzcy",
-          "name": "工作常用",
-          "items": [
-            {
-              "name": "百度地图",
-              "url": "https://map.baidu.com/@12361909,4147513,13z",
-              "title": "百度地图"
-            },
-            {
-              "name": "一诺CRM",
-              "url": "https://www.yinuojizhang.com/crm/#/login",
-              "title": "一诺CRM"
-            },
-            {
-              "name": "天眼查",
-              "url": "https://www.tianyancha.com/",
-              "title": "天眼查"
-            },
-            {
-              "name": "电子税务局",
-              "url": "https://etax.shanxi.chinatax.gov.cn:8443/",
-              "title": "电子税务局"
-            },
-            {
-              "name": "抖音来客",
-              "url": "https://life.douyin.com/p/login",
-              "title": "抖音来客"
-            },
-            {
-              "name": "美团经营宝",
-              "url": "https://ecom.meituan.com/meishi",
-              "title": "美团经营宝"
-            },
-            {
-              "name": "律社",
-              "url": "https://lvsheyun.com/",
-              "title": "律社"
-            },
-            {
-              "name": "执行公开网",
-              "url": "https://zxgk.court.gov.cn/",
-              "title": "执行公开网"
-            }
-          ]
-        },
-        {
-          "id": "sub-cygj",
-          "name": "常用工具",
-          "items": [
-            {
-              "name": "不死鸟-分享为王",
-              "url": "https://oe.do/",
-              "title": "不死鸟-分享为王"
-            },
-            {
-              "name": "移动云盘",
-              "url": "https://yun.139.com/w/#/index",
-              "title": "移动云盘"
-            },
-            {
-              "name": "极简插件",
-              "url": "https://chrome.zzzmh.cn/index",
-              "title": "极简插件"
-            },
-            {
-              "name": "下载工具 Fluxdown",
-              "url": "https://fluxdown.zerx.dev/zh",
-              "title": "下载工具 Fluxdown"
-            },
-            {
-              "name": "下载工具 Ghost Downloader",
-              "url": "https://gd.xychr.com/zh/#download",
-              "title": "下载工具 Ghost Downloader"
-            },
-            {
-              "name": "网站icon获取",
-              "url": "https://favicon.im/zh/",
-              "title": "网站icon获取"
-            },
-            {
-              "name": "硅基流动API",
-              "url": "https://cloud.siliconflow.cn/me/expensebill?tab=coupon",
-              "title": "硅基流动API"
-            }
-          ]
-        },
-        {
-          "id": "sub-ai",
-          "name": "AI 工具",
-          "items": [
-            {
-              "name": "秘塔AI搜索",
-              "url": "https://metaso.cn/",
-              "title": "秘塔AI搜索"
-            },
-            {
-              "name": "百度文心",
-              "url": "https://wenxin.baidu.com/?enter_type=sidebar_dialog",
-              "title": "百度文心"
-            },
-            {
-              "name": "Deepseek",
-              "url": "https://chat.deepseek.com/",
-              "title": "Deepseek"
-            },
-            {
-              "name": "智谱",
-              "url": "https://chatglm.cn/main/alltoolsdetail?lang=zh&refer__991=2790552d-7LlVhbewhvUoE3GEQG7ebubwuKx9AChcvWCwqFfwoCFwWeLWwLW0vCWFL713L0EwrfCVLW1YCWopWYLoXW9jpcWwjugW6iWWPWFUuvWh%3DvyW3juqW79CW%3DW3bWtTfbudWk5TdDhWwrkMW73qU6UIpWlgW7OWCEWkWe_lRFTwNyWWQRLW6BOu%2FlcEvr3TsVUIGEo%2FWo0kWQshWw_LWfTl9quldWeWavXz26GSEcLpxuLWyo6vW37WTypEk6eWMco7WF7W8Eod1E%2FMdvviLQb7JELQW7r%3DWpkhsIWkSz%2F0Rjoq9rcCWv7WoV_TpUcPj%2FkptJuU0kEkTqvdMJDc0TcT0YNkZ6QM3tQfLwFLiucGYBsQtUujbWoVJ5waLj9B9WWyV%3DzeQDGWW3JWkh_ivOWhj99ELC%2Fl9R%2Fphk6BeIBjwRl6WuyiXVMwhoEjW",
-              "title": "智谱"
-            },
-            {
-              "name": "WPS 灵犀",
-              "url": "https://lingxi.kdocs.cn/",
-              "title": "WPS 灵犀"
-            },
-            {
-              "name": "豆包",
-              "url": "https://www.doubao.com/chat",
-              "title": "豆包"
-            },
-            {
-              "name": "千问",
-              "url": "https://www.qianwen.com/",
-              "title": "千问"
-            },
-            {
-              "name": "Qoder",
-              "url": "https://qoder.com/zh",
-              "title": "Qoder"
-            },
-            {
-              "name": "扣子空间",
-              "url": "https://www.coze.cn/",
-              "title": "扣子空间"
-            }
-          ]
-        },
-        {
-          "id": "sub-bxfl",
-          "name": "不想分类",
-          "items": [
-            {
-              "name": "CCTV直播",
-              "url": "https://tv.cctv.com/live/cctv13/",
-              "title": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国际新闻资讯,突出时效性和信息量,实现滚动、递进、更新式报道。",
-              "icon": "icon-cctv"
-            },
-            {
-              "name": "等着我",
-              "url": "https://tv.cctv.com/lm/dzw/",
-              "title": "中央电视台《等着我》国家力量全媒体公益寻人平台,是中国唯一一档利用国家力量为普通大众实现“团圆梦”的大型服务类节目。央视网作为中央电视台独家官网网站,搭建《等着我》唯一官方网站,承担寻人报名平台和线索提供平台。",
-              "icon": "https://zy.ihcll.cn/i/momoimageVercel/202606/18/p1c6gf/dengzhewo.webp"
-            },
-            {
-              "name": "iconfont",
-              "url": "https://www.iconfont.cn/",
-              "title": "iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具",
-              "icon": "icon-iconfont"
             }
           ]
         }
