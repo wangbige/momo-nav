@@ -108,6 +108,144 @@
       "name": "🤦‍♂️ 不想命名了",
       "subcategories": [
         {
+          "id": "sub-gzcy",
+          "name": "工作常用",
+          "items": [
+            {
+              "name": "百度地图",
+              "url": "https://map.baidu.com/@12361909,4147513,13z",
+              "title": "百度地图"
+            },
+            {
+              "name": "一诺CRM",
+              "url": "https://www.yinuojizhang.com/crm/#/login",
+              "title": "一诺CRM"
+            },
+            {
+              "name": "天眼查",
+              "url": "https://www.tianyancha.com/",
+              "title": "天眼查"
+            },
+            {
+              "name": "电子税务局",
+              "url": "https://etax.shanxi.chinatax.gov.cn:8443/",
+              "title": "电子税务局"
+            },
+            {
+              "name": "抖音来客",
+              "url": "https://life.douyin.com/p/login",
+              "title": "抖音来客"
+            },
+            {
+              "name": "美团经营宝",
+              "url": "https://ecom.meituan.com/meishi",
+              "title": "美团经营宝"
+            },
+            {
+              "name": "律社",
+              "url": "https://lvsheyun.com/",
+              "title": "律社"
+            },
+            {
+              "name": "执行公开网",
+              "url": "https://zxgk.court.gov.cn/",
+              "title": "执行公开网"
+            }
+          ]
+        },
+        {
+          "id": "sub-cygj",
+          "name": "常用工具",
+          "items": [
+            {
+              "name": "不死鸟-分享为王",
+              "url": "https://oe.do/",
+              "title": "不死鸟-分享为王"
+            },
+            {
+              "name": "移动云盘",
+              "url": "https://yun.139.com/w/#/index",
+              "title": "移动云盘"
+            },
+            {
+              "name": "极简插件",
+              "url": "https://chrome.zzzmh.cn/index",
+              "title": "极简插件"
+            },
+            {
+              "name": "下载工具 Fluxdown",
+              "url": "https://fluxdown.zerx.dev/zh",
+              "title": "下载工具 Fluxdown"
+            },
+            {
+              "name": "下载工具 Ghost Downloader",
+              "url": "https://gd.xychr.com/zh/#download",
+              "title": "下载工具 Ghost Downloader"
+            },
+            {
+              "name": "网站icon获取",
+              "url": "https://favicon.im/zh/",
+              "title": "网站icon获取"
+            },
+            {
+              "name": "硅基流动API",
+              "url": "https://cloud.siliconflow.cn/me/expensebill?tab=coupon",
+              "title": "硅基流动API"
+            }
+          ]
+        },
+        {
+          "id": "sub-ai",
+          "name": "AI 工具",
+          "items": [
+            {
+              "name": "秘塔AI搜索",
+              "url": "https://metaso.cn/",
+              "title": "秘塔AI搜索"
+            },
+            {
+              "name": "百度文心",
+              "url": "https://wenxin.baidu.com/?enter_type=sidebar_dialog",
+              "title": "百度文心"
+            },
+            {
+              "name": "Deepseek",
+              "url": "https://chat.deepseek.com/",
+              "title": "Deepseek"
+            },
+            {
+              "name": "智谱",
+              "url": "https://chatglm.cn/main/alltoolsdetail?lang=zh&refer__991=2790552d-7LlVhbewhvUoE3GEQG7ebubwuKx9AChcvWCwqFfwoCFwWeLWwLW0vCWFL713L0EwrfCVLW1YCWopWYLoXW9jpcWwjugW6iWWPWFUuvWh%3DvyW3juqW79CW%3DW3bWtTfbudWk5TdDhWwrkMW73qU6UIpWlgW7OWCEWkWe_lRFTwNyWWQRLW6BOu%2FlcEvr3TsVUIGEo%2FWo0kWQshWw_LWfTl9quldWeWavXz26GSEcLpxuLWyo6vW37WTypEk6eWMco7WF7W8Eod1E%2FMdvviLQb7JELQW7r%3DWpkhsIWkSz%2F0Rjoq9rcCWv7WoV_TpUcPj%2FkptJuU0kEkTqvdMJDc0TcT0YNkZ6QM3tQfLwFLiucGYBsQtUujbWoVJ5waLj9B9WWyV%3DzeQDGWW3JWkh_ivOWhj99ELC%2Fl9R%2Fphk6BeIBjwRl6WuyiXVMwhoEjW",
+              "title": "智谱"
+            },
+            {
+              "name": "WPS 灵犀",
+              "url": "https://lingxi.kdocs.cn/",
+              "title": "WPS 灵犀"
+            },
+            {
+              "name": "豆包",
+              "url": "https://www.doubao.com/chat",
+              "title": "豆包"
+            },
+            {
+              "name": "千问",
+              "url": "https://www.qianwen.com/",
+              "title": "千问"
+            },
+            {
+              "name": "Qoder",
+              "url": "https://qoder.com/zh",
+              "title": "Qoder"
+            },
+            {
+              "name": "扣子空间",
+              "url": "https://www.coze.cn/",
+              "title": "扣子空间"
+            }
+          ]
+        },
+        {
           "id": "sub-bxfl",
           "name": "不想分类",
           "items": [
