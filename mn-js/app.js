@@ -966,7 +966,8 @@ function isIconUrl(icon) {
 }
 
 function isImageFile(icon) {
-    return /\.(png|jpe?g|gif|svg|webp|ico)(\?.*)?$/i.test(icon);
+    // 只要链接包含 http/https，或者以 / 开头，或者以 / 结尾，都视为图片
+    return /^https?:\/\//i.test(icon) || icon.startsWith('/') || /\.(png|jpe?g|gif|svg|webp|ico)(\?.*)?$/i.test(icon);
 }
 
 // 获取图标 HTML
@@ -987,12 +988,7 @@ function getIconHtml(icon) {
 
     // 1. URL 类图标 (http:// https:// /path)
     if (isIconUrl(icon)) {
-        if (icon.includes('iconify')) {
-            return `<img src="${escapeHtml(icon)}" alt="icon" loading="lazy" width="24" height="24" onerror="this.src='mn-src/momonav-icon.svg'; this.style.filter='grayscale(100%) brightness(0.7)'">`;
-        }
-        if (isImageFile(icon)) {
-            return `<img src="${escapeHtml(icon)}" alt="icon" loading="lazy" width="24" height="24" onerror="this.src='mn-src/momonav-icon.svg'; this.style.filter='grayscale(100%) brightness(0.7)'">`;
-        }
+        return `<img src="${escapeHtml(icon)}" alt="icon" loading="lazy" width="24" height="24" onerror="this.src='mn-src/momonav-icon.svg'; this.style.filter='grayscale(100%) brightness(0.7)'">`;
     }
 
     // 2. Iconfont 符号（必须匹配指定前缀）
@@ -4552,7 +4548,23 @@ function setupSubcatTabs() {
 }
 
 function createNavCard(item, categoryIndex, itemIndex, subId = '') {
-    const iconHtml = getIconHtml(item.icon);
+    let finalIcon = item.icon;
+    
+    // 核心逻辑：如果没填图标，且是个正常的网址，就自动去借 Google 或者目标网站的 favicon
+    if (!finalIcon && item.url && item.url.startsWith('http')) {
+        try {
+            const domain = new URL(item.url).hostname;
+            // 方案 A：用 Google 的免费抓取服务（国内可能需要代理，但大部分能出来）
+            finalIcon = `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
+            
+            // 方案 B：直接去扒目标网站的根目录 favicon（如果你发现谷歌的不稳定，就把上面那行注释掉，用下面这行）
+            // finalIcon = `https://${domain}/favicon.ico`; 
+        } catch (e) {
+            console.warn('URL 解析失败，无法自动获取图标:', item.url);
+        }
+    }
+
+    const iconHtml = getIconHtml(finalIcon);
     const name = trimToString(item.name) || '未命名链接';
     const title = trimToString(item.title) || name;
     const url = trimToString(item.url) || '#';
