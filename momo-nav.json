@@ -17,7 +17,6 @@
     "primaryColor": "#4a90d9"
   },
   "background": {
-    "texture": "mn-src/grid-me.png",
     "opacity": 0.3
   },
   "iconfont": {
@@ -60,38 +59,33 @@
             {
               "name": "一诺CRM",
               "url": "https://www.yinuojizhang.com/crm/#/login",
-              "title": "一诺CRM",
-              "icon": "https://favicon.im/yinuojizhang.com"
+              "title": "一诺CRM"
             },
             {
               "name": "百度地图",
               "url": "https://map.baidu.com/@12361909,4147513,13z",
-              "title": "百度地图",
-              "icon": "https://a.favicon.im/map.baidu.com?larger=true"
+              "title": "百度地图"
             },
             {
               "name": "天眼查",
               "url": "https://www.tianyancha.com/",
-              "title": "天眼查",
-              "icon": "https://favicon.im/tianyancha.com"
+              "title": "天眼查"
             },
             {
               "name": "电子税务局",
               "url": "https://etax.shanxi.chinatax.gov.cn:8443/",
               "title": "电子税务局",
-              "icon": "https://favicon.im/etax.shanxi.chinatax.gov.cn"
+              "icon": "税"
             },
             {
               "name": "抖音来客",
               "url": "https://life.douyin.com/p/login",
-              "title": "抖音来客",
-              "icon": "https://favicon.im/life.douyin.com"
+              "title": "抖音来客"
             },
             {
               "name": "美团经营宝",
               "url": "https://ecom.meituan.com/meishi",
-              "title": "美团经营宝",
-              "icon": "https://favicon.im/ecom.meituan.com"
+              "title": "美团经营宝"
             },
             {
               "name": "律社",
@@ -103,7 +97,7 @@
               "name": "执行公开网",
               "url": "https://zxgk.court.gov.cn/",
               "title": "执行公开网",
-              "icon": "https://favicon.im/zxgk.court.gov.cn"
+              "icon": "法"
             }
           ]
         }
@@ -120,43 +114,43 @@
               "name": "Deepseek",
               "url": "https://chat.deepseek.com/",
               "title": "Deepseek",
-              "icon": "https://favicon.im/chat.deepseek.com"
+              "icon": "https://icon.xiaoge.org/images/ai/DeepSeek.png"
             },
             {
               "name": "豆包",
               "url": "https://www.doubao.com/chat",
               "title": "豆包",
-              "icon": "https://favicon.im/doubao.com"
+              "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/chat/favicon-doubao.png"
             },
             {
               "name": "智谱",
               "url": "https://chatglm.cn/main/alltoolsdetail?lang=zh&refer__991=2790552d-7LlVhbewhvUoE3GEQG7ebubwuKx9AChcvWCwqFfwoCFwWeLWwLW0vCWFL713L0EwrfCVLW1YCWopWYLoXW9jpcWwjugW6iWWPWFUuvWh%3DvyW3juqW79CW%3DW3bWtTfbudWk5TdDhWwrkMW73qU6UIpWlgW7OWCEWkWe_lRFTwNyWWQRLW6BOu%2FlcEvr3TsVUIGEo%2FWo0kWQshWw_LWfTl9quldWeWavXz26GSEcLpxuLWyo6vW37WTypEk6eWMco7WF7W8Eod1E%2FMdvviLQb7JELQW7r%3DWpkhsIWkSz%2F0Rjoq9rcCWv7WoV_TpUcPj%2FkptJuU0kEkTqvdMJDc0TcT0YNkZ6QM3tQfLwFLiucGYBsQtUujbWoVJ5waLj9B9WWyV%3DzeQDGWW3JWkh_ivOWhj99ELC%2Fl9R%2Fphk6BeIBjwRl6WuyiXVMwhoEjW",
               "title": "智谱",
-              "icon": "https://favicon.im/chatglm.cn"
+              "icon": "https://icon.xiaoge.org/images/ai/GLM.png"
             },
             {
               "name": "秘塔AI搜索",
               "url": "https://metaso.cn/",
               "title": "秘塔AI搜索",
-              "icon": "https://favicon.im/metaso.cn"
+              "icon": "https://metaso.cn/apple-touch-icon.png"
             },
             {
               "name": "WPS 灵犀",
               "url": "https://lingxi.kdocs.cn/",
               "title": "WPS 灵犀",
-              "icon": "https://favicon.im/lingxi.kdocs.cn"
+              "icon": "https://a.favicon.im/wps.com?larger=true"
             },
             {
               "name": "百度文心",
               "url": "https://wenxin.baidu.com/?enter_type=sidebar_dialog",
               "title": "百度文心",
-              "icon": "https://favicon.im/wenxin.baidu.com"
+              "icon": "https://a.favicon.im/baidu.com?larger=true"
             },
             {
               "name": "千问",
               "url": "https://www.qianwen.com/",
               "title": "千问",
-              "icon": "https://favicon.im/qianwen.com"
+              "icon": "https://icon.xiaoge.org/images/ai/Qwen.png"
             },
             {
               "name": "Qoder",
@@ -168,7 +162,7 @@
               "name": "扣子空间",
               "url": "https://www.coze.cn/",
               "title": "扣子空间",
-              "icon": "https://favicon.im/coze.cn"
+              "icon": "https://icon.xiaoge.org/images/ai/Doubao.png"
             }
           ]
         }
@@ -182,7 +176,7 @@
           "name": "默认",
           "items": [
             {
-              "name": "不死鸟-分享为王",
+              "name": "不死鸟",
               "url": "https://oe.do/",
               "title": "不死鸟-分享为王",
               "icon": "https://favicon.im/oe.do"
@@ -200,19 +194,19 @@
               "icon": "https://favicon.im/chrome.zzzmh.cn"
             },
             {
-              "name": "下载工具 Fluxdown",
+              "name": "Fluxdown",
               "url": "https://fluxdown.zerx.dev/zh",
               "title": "下载工具 Fluxdown",
               "icon": "https://favicon.im/fluxdown.zerx.dev"
             },
             {
-              "name": "下载工具 Ghost Downloader",
+              "name": "Ghost Downloader",
               "url": "https://gd.xychr.com/zh/#download",
               "title": "下载工具 Ghost Downloader",
               "icon": "https://favicon.im/gd.xychr.com"
             },
             {
-              "name": "网站icon获取",
+              "name": "网站icon",
               "url": "https://favicon.im/zh/",
               "title": "网站icon获取",
               "icon": "https://favicon.im/favicon.im"
@@ -220,13 +214,13 @@
             {
               "name": "硅基流动API",
               "url": "https://cloud.siliconflow.cn/me/expensebill?tab=coupon",
-              "title": "硅基流动API",
-              "icon": "https://favicon.im/cloud.siliconflow.cn"
+              "title": "硅基流动API"
             },
             {
               "name": "默默导航",
               "url": "https://123.ihcll.cn",
               "title": "默默导航演示站点",
+              "icon": "icon-momonav-icon",
               "keywords": "mm"
             },
             {
@@ -234,6 +228,16 @@
               "url": "https://github.com/hcllmsx/momo-nav",
               "title": "默默导航GitHub仓库",
               "icon": "icon-momonav-icon"
+            },
+            {
+              "name": "Cloudflare",
+              "url": "https://dash.cloudflare.com/",
+              "icon": "https://a.favicon.im/cloudflare.com?larger=true"
+            },
+            {
+              "name": "Github",
+              "url": "https://github.com/",
+              "icon": "https://a.favicon.im/github.com?larger=true"
             }
           ]
         }
